@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+README
+lib/Email/MIME/Kit/Renderer/TT.pm
+t/assemble.t
+t/kits/test.mkit/manifest.json
