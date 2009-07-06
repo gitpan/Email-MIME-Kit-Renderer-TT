@@ -1,5 +1,5 @@
 package Email::MIME::Kit::Renderer::TT;
-our $VERSION = '0.001';
+our $VERSION = '0.091870';
 
 use Moose;
 with 'Email::MIME::Kit::Role::Renderer';
@@ -28,9 +28,9 @@ has eval_perl => (
 );
 
 has tt => (
-  is   => 'ro',
   isa  => 'Template',
   lazy => 1,
+  accessor => '_tt',
   init_arg => undef,
   default  => sub {
     Template->new({
@@ -62,7 +62,7 @@ Email::MIME::Kit::Renderer::TT - render parts of your mail with Template-Toolkit
 
 =head1 VERSION
 
-version 0.001
+version 0.091870
 
 =head1 AUTHOR
 

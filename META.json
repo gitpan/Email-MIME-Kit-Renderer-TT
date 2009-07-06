@@ -1,0 +1,21 @@
+{
+   "resources" : {
+      "repository" : "http://github.com/rjbs/email-mime-kit-renderer-tt/tree"
+   },
+   "meta-spec" : {
+      "version" : 1.4,
+      "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
+   },
+   "generated_by" : "Dist::Zilla::Plugin::MetaJSON version 1.091480",
+   "version" : "0.091870",
+   "name" : "Email-MIME-Kit-Renderer-TT",
+   "author" : [
+      "Ricardo SIGNES <rjbs@cpan.org>"
+   ],
+   "license" : "perl",
+   "requires" : {
+      "Email::MIME::Kit" : "2",
+      "Template" : "2"
+   },
+   "abstract" : "render parts of your mail with Template-Toolkit"
+}
