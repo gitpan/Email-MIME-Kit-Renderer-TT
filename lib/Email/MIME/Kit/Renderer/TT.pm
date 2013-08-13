@@ -1,6 +1,6 @@
 package Email::MIME::Kit::Renderer::TT;
-BEGIN {
-  $Email::MIME::Kit::Renderer::TT::VERSION = '1.000';
+{
+  $Email::MIME::Kit::Renderer::TT::VERSION = '1.001';
 }
 use Moose;
 with 'Email::MIME::Kit::Role::Renderer';
@@ -61,6 +61,7 @@ has tt => (
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -69,7 +70,7 @@ Email::MIME::Kit::Renderer::TT - render parts of your mail with Template-Toolkit
 
 =head1 VERSION
 
-version 1.000
+version 1.001
 
 =head1 DESCRIPTION
 
@@ -105,10 +106,9 @@ Ricardo SIGNES <rjbs@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Ricardo SIGNES.
+This software is copyright (c) 2013 by Ricardo SIGNES.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
